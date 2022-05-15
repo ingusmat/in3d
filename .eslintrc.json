@@ -1,0 +1,31 @@
+{
+  "extends": [
+    "airbnb"
+  ],
+  "plugins": [
+    "filenames",
+    "import",
+    "jest",
+    "jsx-a11y",
+    "prettier",
+    "react",
+    "react-hooks"
+  ],
+  "env": {
+    "jest": true,
+    "node": true
+  },
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-filename-extension": "warn",
+    "filenames/no-index": "error",
+    "filenames/match-exported": [
+      "error",
+      "kebab"
+    ],
+    "jest/no-disabled-tests": "error",
+    "jest/no-focused-tests": "error",
+    "jest/no-identical-title": "error",
+    "jest/valid-expect": "error"
+  }
+}
