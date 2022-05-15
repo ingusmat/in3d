@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "build": "tsc && vite build",
+    "build": "tsc && vite build --base=/in3d/",
     "dev": "vite",
     "deploy": "sh deploy.sh",
     "preview": "vite preview",
